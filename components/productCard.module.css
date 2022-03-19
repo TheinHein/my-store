@@ -1,0 +1,41 @@
+.container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 400px;
+}
+.container:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.titleWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.description {
+  font-size: 10px;
+}
+
+.img {
+  height: 140px;
+  width: 140px;
+}
+.addToCartWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.quantity {
+  width: 70px;
+  padding-right: 8px;
+}
+.addBtn {
+  border-radius: 18px;
+  width: 70%;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+  color: black;
+}
